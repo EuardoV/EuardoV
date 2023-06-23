@@ -1,0 +1,5 @@
+8) El analogRead a diferencia del digitalRead se conecta a traves de otros conectores. Ademas, mientras que digitalRead puede leer exclusivamente los valores de 0 y 5v, analogRead puede leer todos los valores de por medio.
+9) Ya que sus funcionamientos son muy distintos (uno lee distancia y el otro sonido), obviamente tendran diferencias.
+Una de ellas es que el ultrasonido debido a su funcionamiento de onda puede tirar valores erroneos si esta muy cerca del techo o piso, mientras que el fotosensor no. Pero esto es muy variante respecto al proyecto en el que uno este trabajando.
+10) PWN (modulación de ancho de pulso en ingles), en un pulso. Osea, detecta el tiempo en el cual se produce un pulso mas el tiempo que el mismo esta ausente hasta el proximo. 
+Su funcionamiento es vario. Los pulsadores se basan en el, y el analogRead también.
